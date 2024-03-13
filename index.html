@@ -9,17 +9,6 @@
             margin: 10px;
             margin-top: 5px;
         }
-        
-        /* #sign-up{
-            margin-left: 840px;
-            margin-top: 10px;
-            text-decoration: none;
-            font-size: 30px;
-            border: 1px solid black;
-            background-color: black;
-            color: aliceblue;
-            border-radius: 5px;
-        } */
     </style>
 </head>
 <body>
@@ -32,12 +21,31 @@
         <a href="review.html" id="sign-up">review</a>
     </nav>
     <br>
-    <center>
-        <img src="./imeges/munim.jpeg" alt="picture" width="105px" title="munim picture">
-        <h1>MUHAMMAD MUNIM SIDDIQUI</h1>
-    </center>
-    
-    <h3><h2>About Me:</h2><b>Hi this is <b>Muhammad Munim Siddiqui</b>.</b>I am a student of class 9 in fg school i am national player of Teqball which is newly introduced in Pakistan and also i have some knowledge about programming and.I love to do coding. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est commodi fugiat quod autem, consectetur nisi nobis magnam voluptate ad nihil, quis enim a fuga provident quidem quos perspiciatis nam Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quis architecto alias quo optio possimus laboriosam similique omnis sunt, labore adipisci aut aspernatur. Aut blanditiis obcaecati optio vero! Ullam, ipsam. </h3>
+    <header>
+
+        <center>
+            <img src="./imeges/munim.jpeg" alt="picture" width="105px" title="munim picture">
+            
+            <h1>MUHAMMAD MUNIM SIDDIQUI</h1>
+            
+            <!-- <audio src="./audio/name.mp3" controls ></audio> -->
+            
+            <audio id="audio_play">
+                <source src="./audio/name.mp3" type="audio/ogg" />
+                <!-- <source src="http://www.w3schools.com/tags/horse.mp3" type="audio/mpeg" /> -->
+                
+            </audio>
+            
+            
+            <img src="http://bit.ly/1kX7D49" onClick="document.getElementById('audio_play').play(); return false;" />
+            <!--         
+                <img src="http://bit.ly/1mq0tIt" onClick="document.getElementById('audio_play').pause(); return false;" /> -->
+                
+            </center>
+        </header>
+            <div class="about-me">
+                <h3><h2>About Me:</h2><b>Hi this is <b>Muhammad Munim Siddiqui</b>.</b>I am a student of class 9 in fg school i am national player of Teqball which is newly introduced in Pakistan and also i have some knowledge about programming and.I love to do coding. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est commodi fugiat quod autem, consectetur nisi nobis magnam voluptate ad nihil, quis enim a fuga provident quidem quos perspiciatis nam Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quis architecto alias quo optio possimus laboriosam similique omnis sunt, labore adipisci aut aspernatur. Aut blanditiis obcaecati optio vero! Ullam, ipsam. </h3>
+            </div>
     
 </body>
 </html>
