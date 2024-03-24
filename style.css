@@ -1,0 +1,31 @@
+*{
+            
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    a{
+        margin: 10px;
+        margin-top: 5px;
+    }
+    #name{
+        height: 50px;
+    }
+    a{
+        text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: black;
+    border-radius: 5px;
+    }
+    #munim{
+        border: 1px solid black;
+        background-color: black;
+        color: white;
+        margin-left: 350px;
+        margin-right: 350px;
+        border-radius: 5px;
+    }
+    #munim-img{
+        border-radius: 100px;
+    }
