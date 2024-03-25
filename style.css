@@ -29,3 +29,13 @@
     #munim-img{
         border-radius: 100px;
     }
+    th{
+        background-color: #000000;
+        color: #ffffff;
+        border-color: #ffffff;
+    }
+    a:hover{
+        background-color: rgb(189, 189, 189);
+        border-color: rgb(211, 211, 211);
+        transition-duration: 0.3s;
+    }
